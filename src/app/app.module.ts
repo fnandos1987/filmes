@@ -1,18 +1,25 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { CrudFilmesComponent } from './crud-filmes/crud-filmes.component';
+import { FilmesService } from './filmes.service';
+import { HttpModule } from '@angular/http';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CrudFilmesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [FilmesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

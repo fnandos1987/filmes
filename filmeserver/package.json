@@ -1,0 +1,27 @@
+{
+  "name": "filmeserver",
+  "version": "1.0.0",
+  "description": "server de filmes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fnandos1987/filmes.git"
+  },
+  "keywords": [
+    "filmes"
+  ],
+  "author": "fernando.schwambach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fnandos1987/filmes/issues"
+  },
+  "homepage": "https://github.com/fnandos1987/filmes#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}
